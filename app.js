@@ -3,7 +3,7 @@ const fs = require('fs');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const mnemonic = fs.readFileSync(".secret").toString().trim();
-const provider = new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/5c67849d692d4bf48367f9071ccb36ca`)
+const provider = new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/<YOUR-KEY>`)
 const web3 = new Web3(provider);
 
 const ERC20TransferABI = [
