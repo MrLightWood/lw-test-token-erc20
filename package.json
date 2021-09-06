@@ -1,0 +1,16 @@
+{
+  "name": "lw-token-ropsten-erc20",
+  "version": "1.0.0",
+  "description": "LW Token Demo on Ropsten Ethereum Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alikhan Sailekeyev",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "web3": "^1.5.2"
+  }
+}
